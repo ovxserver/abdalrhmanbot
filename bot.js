@@ -5,7 +5,7 @@ client.on('ready', () => {console.log(`Logged in as ${client.user.tag}!`);});
 const prefixac = '#';
 client.on('message', message => {
  let rebel = message.content.split(` `).slice(1).join(' ');
-if(message.author.id !== '537121363152863232') return ;
+if(message.author.id !== '537121363152863232','420655491794862094') return ;
 if (message.content.startsWith(prefixac + 'setp')) {
 if(!rebel) return message.channel.send(`**ex ? ${prefixac}setp Hi**`).then(m => m.delete(3000));
 client.user.setActivity(rebel,{ type: 'PLAYING' });
