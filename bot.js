@@ -52,6 +52,13 @@ message.channel.sendEmbed(embed).then(m => m.delete(17000));}
 });
 
 
+client.on('ready', async() => {
+var server = "548419135562973194"; // ايدي السررفر
+var channel = "548419135562973196";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**ههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه**')
+    },305);
+})
 
 
 
